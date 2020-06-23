@@ -11,6 +11,10 @@ body{
     width: 100%;
     
     box-sizing: border-box;
+
+    background-size: cover;
+    background-position: center;
+    background-image: url("imgs/RichYMoryWide_1_4.jpg");
 }
 
 .section{
@@ -38,23 +42,18 @@ body{
     flex-direction: column;
     justify-content: flex-end;
 
-    background-size: cover;
-    background-position: center;
-    background-image: url("imgs/RichYMoryWide_1_4.jpg");
+    color:#eff7f6;
+    text-align: center;
+    background-image: linear-gradient(to top , rgba(58, 80, 107, 1), rgba(50, 120, 163, 0.4));
 }
 
 .tab-container__title{
-    display: none;
+    font-size: 1.3em;
 }
 
 .tab-container__info{
     width: 100%;
     padding: 10px 0;
-
-    text-align: center;
-    color:#eff7f6;
-    
-    background-image: linear-gradient(to top , rgba(58, 80, 107, 1), rgba(69, 123, 157, .7));
 }
 
 .tab-container__info p{
@@ -234,7 +233,8 @@ body{
 }
 
 @media (min-width: 1024px) {
-    .tab-container{
+    .header{
+        height: 14em;
         background-position: center 40%;
     }
 
